@@ -1,0 +1,59 @@
+/* Dashboard.css */
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    padding: 0.75rem 1rem;
+    color: #b0bec5;
+    transition: color 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    color: #ffffff;
+}
+
+.main-content {
+    margin-left: 250px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Hiển thị 3 dòng */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.product-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* Thay đổi tỷ lệ cho các biểu đồ */
+.chart-container {
+    /* Loại bỏ chiều cao cố định */
+  }
+  
+  .chart-left {
+    width: 65%; /* Biểu đồ đường chiếm 70% */
+    height: 400px;
+  }
+  
+  .chart-right {
+    width: 35%; /* Biểu đồ tròn chiếm 30% */
+    height: 400px;
+  }
+  
+  

@@ -1,0 +1,65 @@
+/* Dashboard.css */
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+}
+
+.sidebar .nav-link {
+    padding: 0.75rem 1rem;
+    color: #b0bec5;
+    transition: color 0.3s ease;
+}
+
+.sidebar .nav-link:hover {
+    color: #ffffff;
+}
+
+.main-content {
+    margin-left: 250px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.description {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Hiển thị 3 dòng */
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+.product-title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.fab-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+.fab-btn i {
+    color: white;
+}
+
+.fab-btn:hover {
+    background-color: #28a745; /* Color for hover */
+    cursor: pointer;
+}
